@@ -1,0 +1,16 @@
+/* Algoritmo: Somador Condicional */
+inteiro soma <- 0;
+inteiro alvo <- 10;
+
+inteiro contador <- 1;
+
+enquanto (contador <= alvo) [
+    
+    se (contador > 5) [
+        soma <- soma + contador;
+    ] senao [
+        soma <- soma + 1;
+    ]
+    
+    contador <- contador + 1;
+]
